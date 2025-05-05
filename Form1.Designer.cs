@@ -36,7 +36,7 @@
             // 
             // button1
             // 
-            button1.Location = new Point(384, 160);
+            button1.Location = new Point(152, 37);
             button1.Name = "button1";
             button1.Size = new Size(111, 23);
             button1.TabIndex = 0;
@@ -48,7 +48,7 @@
             // 
             lblStatus.AutoSize = true;
             lblStatus.Font = new Font("Arial", 18F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            lblStatus.Location = new Point(384, 226);
+            lblStatus.Location = new Point(12, 83);
             lblStatus.Name = "lblStatus";
             lblStatus.Size = new Size(81, 27);
             lblStatus.TabIndex = 1;
@@ -57,7 +57,7 @@
             // textBoxLinkPageTitle
             // 
             textBoxLinkPageTitle.Font = new Font("Arial", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            textBoxLinkPageTitle.Location = new Point(384, 91);
+            textBoxLinkPageTitle.Location = new Point(152, 5);
             textBoxLinkPageTitle.Name = "textBoxLinkPageTitle";
             textBoxLinkPageTitle.Size = new Size(184, 26);
             textBoxLinkPageTitle.TabIndex = 2;
@@ -67,7 +67,7 @@
             // 
             labelLinkPageTitle.AutoSize = true;
             labelLinkPageTitle.Font = new Font("Arial", 14.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            labelLinkPageTitle.Location = new Point(244, 91);
+            labelLinkPageTitle.Location = new Point(12, 9);
             labelLinkPageTitle.Name = "labelLinkPageTitle";
             labelLinkPageTitle.Size = new Size(134, 22);
             labelLinkPageTitle.TabIndex = 3;
@@ -79,7 +79,7 @@
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.DarkSeaGreen;
-            ClientSize = new Size(800, 450);
+            ClientSize = new Size(360, 133);
             Controls.Add(labelLinkPageTitle);
             Controls.Add(textBoxLinkPageTitle);
             Controls.Add(lblStatus);

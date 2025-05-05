@@ -52,8 +52,9 @@ namespace link_to_html
             }
 
             // string htmlContent = "<!DOCTYPE html>\n<html>\n<head>\n<title>Links Page</title>\n</head>\n<body>\n<ul>\n";
-            string htmlContent = "<!DOCTYPE html>\n<html>\n<head>\n<meta http-equiv=\"content-type\" content=\"text/html; charset=ISO-8859-1\">" +
-                                 "<title>" + linkPageTitleTxt + "</title>\n" +"<style>"+ "\nhtml * {\nfont-family: Calibri;\n}\n</style>\n</head>\n<body>\n" + 
+            string htmlContent = "<!DOCTYPE html>\n<html>\n <head>\n  <meta http-equiv=\"content-type\" content=\"text/html; charset=ISO-8859-1\">" +
+                                 "\n  <title>" + linkPageTitleTxt + "</title>\n" + "  <style>" + "\n    html * {\n    font-family: Calibri;\n   }\n  </style>\n" +
+                                 " </head>\n<body>\n" + 
                                  "<H1>" + linkPageTitleTxt + "</H1>\n";
 
             // Handle Link List
